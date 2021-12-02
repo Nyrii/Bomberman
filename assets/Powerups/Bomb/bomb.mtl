@@ -1,0 +1,27 @@
+newmtl Material__1
+Ka 0.000000 0.000000 0.000000
+Kd 0.100490 0.100490 0.100490
+Ks 0.200000 0.200000 0.200000
+Ns 6.062867
+d 1.000000
+Tr 0.000000
+map_Kd Material__1 - Default Texture.psd 
+
+newmtl Metal_Grey_Plain
+Ka 0.000000 0.000000 0.000000
+Kd 0.401961 0.401961 0.401961
+Ks 0.200000 0.200000 0.200000
+Ns 6.062867
+d 1.000000
+Tr 0.000000
+map_Kd Metal_Grey_Plain - Default Texture.psd 
+
+newmtl Fabric_Tan_Carpe
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.343877 0.189807
+Ks 0.200000 0.200000 0.200000
+Ns 6.062867
+d 1.000000
+Tr 0.000000
+map_Kd Fabric_Tan_Carpe - Default Texture.psd 
+

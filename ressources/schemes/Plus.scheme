@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<GUIScheme version="5" name="Plus">
+    <Font filename="DejaVuSans-12.font" />
+    <Imageset filename="Plus.imageset" />
+    <LookNFeel filename="Plus.looknfeel" />
+    <WindowRendererSet filename="CEGUICoreWindowRendererSet" />
+
+    <FalagardMapping windowType="Plus/Label" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Plus/Label" />
+    <FalagardMapping windowType="Plus/Button" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="Plus/Button" />
+    <FalagardMapping windowType="Plus/ImageButton" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="Plus/ImageButton" />
+    <FalagardMapping windowType="Plus/RadioButton" targetType="CEGUI/RadioButton" renderer="Core/ToggleButton" lookNFeel="Plus/RadioButton" />
+    <FalagardMapping windowType="Plus/Checkbox" targetType="CEGUI/ToggleButton" renderer="Core/ToggleButton" lookNFeel="Plus/Checkbox" />
+    <FalagardMapping windowType="Plus/Titlebar" targetType="CEGUI/Titlebar" renderer="Core/Titlebar" lookNFeel="Plus/Titlebar" />
+    <FalagardMapping windowType="Plus/FrameWindow" targetType="CEGUI/FrameWindow" renderer="Core/FrameWindow" lookNFeel="Plus/FrameWindow" />
+    <FalagardMapping windowType="Plus/Editbox" targetType="CEGUI/Editbox" renderer="Core/Editbox" lookNFeel="Plus/Editbox" />
+    <FalagardMapping windowType="Plus/VerticalScrollbarThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Plus/VerticalScrollbarThumb" />
+    <FalagardMapping windowType="Plus/VerticalScrollbar" targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="Plus/VerticalScrollbar" />
+    <FalagardMapping windowType="Plus/HorizontalScrollbarThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Plus/HorizontalScrollbarThumb" />
+    <FalagardMapping windowType="Plus/HorizontalScrollbar" targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="Plus/HorizontalScrollbar" />
+    <FalagardMapping windowType="Plus/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" renderer="Core/MultiLineEditbox" lookNFeel="Plus/MultiLineEditbox" />
+    <FalagardMapping windowType="Plus/ProgressBar" targetType="CEGUI/ProgressBar" renderer="Core/ProgressBar" lookNFeel="Plus/ProgressBar" />
+    <FalagardMapping windowType="Plus/HorizontalSliderThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Plus/HorizontalSliderThumb" />
+    <FalagardMapping windowType="Plus/HorizontalSlider" targetType="CEGUI/Slider" renderer="Core/Slider" lookNFeel="Plus/HorizontalSlider" />
+    <FalagardMapping windowType="Plus/VerticalSliderThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Plus/VerticalSliderThumb" />
+    <FalagardMapping windowType="Plus/VerticalSlider" targetType="CEGUI/Slider" renderer="Core/Slider" lookNFeel="Plus/VerticalSlider" />
+    
+    <FalagardMapping windowType="Plus/MenuItem" targetType="CEGUI/MenuItem" renderer="Core/MenuItem" lookNFeel="Plus/MenuItem" />
+    <FalagardMapping windowType="Plus/Menubar" targetType="CEGUI/Menubar" renderer="Core/Menubar" lookNFeel="Plus/Menubar" />
+    <FalagardMapping windowType="Plus/PopupMenu" targetType="CEGUI/PopupMenu" renderer="Core/PopupMenu" lookNFeel="Plus/PopupMenu" />
+
+    <FalagardMapping windowType="Plus/TabButton" targetType="CEGUI/TabButton" renderer="Core/TabButton" lookNFeel="Plus/TabButton" />
+    <FalagardMapping windowType="Plus/TabButtonPane" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Plus/TabButtonPane" />
+    <FalagardMapping windowType="Plus/TabContentPane" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Plus/TabContentPane" />
+    <FalagardMapping windowType="Plus/TabControl" targetType="CEGUI/TabControl" renderer="Core/TabControl" lookNFeel="Plus/TabControl" />
+    
+    <FalagardMapping windowType="Plus/ComboDropList" targetType="CEGUI/ComboDropList" renderer="Core/Listbox" lookNFeel="Plus/ComboDropList" />
+    <FalagardMapping windowType="Plus/ComboEditbox" targetType="CEGUI/Editbox"	 renderer="Core/Editbox" lookNFeel="Plus/ComboEditbox" />
+    <FalagardMapping windowType="Plus/Combobox" targetType="CEGUI/Combobox"	 renderer="Core/Default" lookNFeel="Plus/Combobox" />
+
+    <FalagardMapping windowType="Plus/ListboxItem" targetType="CEGUI/ItemEntry" renderer="Core/ItemEntry" lookNFeel="Plus/ListboxItem" />
+    <FalagardMapping windowType="Plus/ItemListbox" targetType="CEGUI/ItemListbox" renderer="Core/ItemListbox" lookNFeel="Plus/ItemListbox" />
+    <FalagardMapping windowType="Plus/Listbox" targetType="CEGUI/Listbox" renderer="Core/Listbox" lookNFeel="Plus/Listbox" />
+    
+    <FalagardMapping windowType="Plus/ListHeaderSegment" targetType="CEGUI/ListHeaderSegment" renderer="Core/ListHeaderSegment" lookNFeel="Plus/ListHeaderSegment" />
+    <FalagardMapping windowType="Plus/ListHeader" targetType="CEGUI/ListHeader" renderer="Core/ListHeader" lookNFeel="Plus/ListHeader" />
+    <FalagardMapping windowType="Plus/MultiColumnList" targetType="CEGUI/MultiColumnList" renderer="Core/MultiColumnList" lookNFeel="Plus/MultiColumnList" />
+    
+    <FalagardMapping windowType="Plus/ScrollablePane" targetType="CEGUI/ScrollablePane" renderer="Core/ScrollablePane" lookNFeel="Plus/ScrollablePane" />
+    
+    <FalagardMapping windowType="Plus/Spinner" targetType="CEGUI/Spinner" renderer="Core/Default" lookNFeel="Plus/Spinner" />
+    <FalagardMapping windowType="Plus/Tooltip" targetType="CEGUI/Tooltip" renderer="Core/Tooltip" lookNFeel="Plus/Tooltip" />
+    <FalagardMapping windowType="Plus/StaticImage" targetType="DefaultWindow" renderer="Core/StaticImage" lookNFeel="Plus/StaticImage" />
+    <FalagardMapping windowType="Plus/StaticText" targetType="DefaultWindow" renderer="Core/StaticText" lookNFeel="Plus/StaticText" />
+    <FalagardMapping windowType="Plus/GroupBox" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Plus/GroupBox" />
+    <FalagardMapping windowType="Plus/Tree" targetType="CEGUI/Tree" renderer="Core/Tree" lookNFeel="Plus/Tree" />
+    
+</GUIScheme>
+

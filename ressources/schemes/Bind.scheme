@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<GUIScheme version="5" name="Bind">
+    <Font filename="DejaVuSans-12.font" />
+    <Imageset filename="Bind.imageset" />
+    <LookNFeel filename="Bind.looknfeel" />
+    <WindowRendererSet filename="CEGUICoreWindowRendererSet" />
+
+    <FalagardMapping windowType="Bind/Label" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Bind/Label" />
+    <FalagardMapping windowType="Bind/Button" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="Bind/Button" />
+    <FalagardMapping windowType="Bind/ImageButton" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="Bind/ImageButton" />
+    <FalagardMapping windowType="Bind/RadioButton" targetType="CEGUI/RadioButton" renderer="Core/ToggleButton" lookNFeel="Bind/RadioButton" />
+    <FalagardMapping windowType="Bind/Checkbox" targetType="CEGUI/ToggleButton" renderer="Core/ToggleButton" lookNFeel="Bind/Checkbox" />
+    <FalagardMapping windowType="Bind/Titlebar" targetType="CEGUI/Titlebar" renderer="Core/Titlebar" lookNFeel="Bind/Titlebar" />
+    <FalagardMapping windowType="Bind/FrameWindow" targetType="CEGUI/FrameWindow" renderer="Core/FrameWindow" lookNFeel="Bind/FrameWindow" />
+    <FalagardMapping windowType="Bind/Editbox" targetType="CEGUI/Editbox" renderer="Core/Editbox" lookNFeel="Bind/Editbox" />
+    <FalagardMapping windowType="Bind/VerticalScrollbarThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Bind/VerticalScrollbarThumb" />
+    <FalagardMapping windowType="Bind/VerticalScrollbar" targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="Bind/VerticalScrollbar" />
+    <FalagardMapping windowType="Bind/HorizontalScrollbarThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Bind/HorizontalScrollbarThumb" />
+    <FalagardMapping windowType="Bind/HorizontalScrollbar" targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="Bind/HorizontalScrollbar" />
+    <FalagardMapping windowType="Bind/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" renderer="Core/MultiLineEditbox" lookNFeel="Bind/MultiLineEditbox" />
+    <FalagardMapping windowType="Bind/ProgressBar" targetType="CEGUI/ProgressBar" renderer="Core/ProgressBar" lookNFeel="Bind/ProgressBar" />
+    <FalagardMapping windowType="Bind/HorizontalSliderThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Bind/HorizontalSliderThumb" />
+    <FalagardMapping windowType="Bind/HorizontalSlider" targetType="CEGUI/Slider" renderer="Core/Slider" lookNFeel="Bind/HorizontalSlider" />
+    <FalagardMapping windowType="Bind/VerticalSliderThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Bind/VerticalSliderThumb" />
+    <FalagardMapping windowType="Bind/VerticalSlider" targetType="CEGUI/Slider" renderer="Core/Slider" lookNFeel="Bind/VerticalSlider" />
+    
+    <FalagardMapping windowType="Bind/MenuItem" targetType="CEGUI/MenuItem" renderer="Core/MenuItem" lookNFeel="Bind/MenuItem" />
+    <FalagardMapping windowType="Bind/Menubar" targetType="CEGUI/Menubar" renderer="Core/Menubar" lookNFeel="Bind/Menubar" />
+    <FalagardMapping windowType="Bind/PopupMenu" targetType="CEGUI/PopupMenu" renderer="Core/PopupMenu" lookNFeel="Bind/PopupMenu" />
+
+    <FalagardMapping windowType="Bind/TabButton" targetType="CEGUI/TabButton" renderer="Core/TabButton" lookNFeel="Bind/TabButton" />
+    <FalagardMapping windowType="Bind/TabButtonPane" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Bind/TabButtonPane" />
+    <FalagardMapping windowType="Bind/TabContentPane" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Bind/TabContentPane" />
+    <FalagardMapping windowType="Bind/TabControl" targetType="CEGUI/TabControl" renderer="Core/TabControl" lookNFeel="Bind/TabControl" />
+    
+    <FalagardMapping windowType="Bind/ComboDropList" targetType="CEGUI/ComboDropList" renderer="Core/Listbox" lookNFeel="Bind/ComboDropList" />
+    <FalagardMapping windowType="Bind/ComboEditbox" targetType="CEGUI/Editbox"	 renderer="Core/Editbox" lookNFeel="Bind/ComboEditbox" />
+    <FalagardMapping windowType="Bind/Combobox" targetType="CEGUI/Combobox"	 renderer="Core/Default" lookNFeel="Bind/Combobox" />
+
+    <FalagardMapping windowType="Bind/ListboxItem" targetType="CEGUI/ItemEntry" renderer="Core/ItemEntry" lookNFeel="Bind/ListboxItem" />
+    <FalagardMapping windowType="Bind/ItemListbox" targetType="CEGUI/ItemListbox" renderer="Core/ItemListbox" lookNFeel="Bind/ItemListbox" />
+    <FalagardMapping windowType="Bind/Listbox" targetType="CEGUI/Listbox" renderer="Core/Listbox" lookNFeel="Bind/Listbox" />
+    
+    <FalagardMapping windowType="Bind/ListHeaderSegment" targetType="CEGUI/ListHeaderSegment" renderer="Core/ListHeaderSegment" lookNFeel="Bind/ListHeaderSegment" />
+    <FalagardMapping windowType="Bind/ListHeader" targetType="CEGUI/ListHeader" renderer="Core/ListHeader" lookNFeel="Bind/ListHeader" />
+    <FalagardMapping windowType="Bind/MultiColumnList" targetType="CEGUI/MultiColumnList" renderer="Core/MultiColumnList" lookNFeel="Bind/MultiColumnList" />
+    
+    <FalagardMapping windowType="Bind/ScrollablePane" targetType="CEGUI/ScrollablePane" renderer="Core/ScrollablePane" lookNFeel="Bind/ScrollablePane" />
+    
+    <FalagardMapping windowType="Bind/Spinner" targetType="CEGUI/Spinner" renderer="Core/Default" lookNFeel="Bind/Spinner" />
+    <FalagardMapping windowType="Bind/Tooltip" targetType="CEGUI/Tooltip" renderer="Core/Tooltip" lookNFeel="Bind/Tooltip" />
+    <FalagardMapping windowType="Bind/StaticImage" targetType="DefaultWindow" renderer="Core/StaticImage" lookNFeel="Bind/StaticImage" />
+    <FalagardMapping windowType="Bind/StaticText" targetType="DefaultWindow" renderer="Core/StaticText" lookNFeel="Bind/StaticText" />
+    <FalagardMapping windowType="Bind/GroupBox" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Bind/GroupBox" />
+    <FalagardMapping windowType="Bind/Tree" targetType="CEGUI/Tree" renderer="Core/Tree" lookNFeel="Bind/Tree" />
+    
+</GUIScheme>
+

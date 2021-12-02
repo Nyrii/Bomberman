@@ -1,0 +1,53 @@
+newmtl chrome
+Ka 0.000000 0.000000 0.000000
+Kd 0.886275 0.690196 0.000000
+Ks 0.640000 0.640000 0.640000
+Ns 18.379177
+d 1.000000
+Tr 0.000000
+map_Kd Capsule - Diffuse.psd 
+
+newmtl chrome1
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Ns 6.062867
+d 1.000000
+Tr 0.000000
+map_Kd chrome1 - Default Texture.psd 
+
+newmtl red_carpaint
+Ka 0.000000 0.000000 0.000000
+Kd 0.140322 0.096223 0.721569
+Ks 0.200000 0.200000 0.200000
+Ns 6.062867
+d 1.000000
+Tr 0.000000
+map_Kd red_carpaint - Default Texture.psd 
+
+newmtl chrome12
+Ka 0.000000 0.000000 0.000000
+Kd 0.686275 0.683589 0.683589
+Ks 0.200000 0.200000 0.200000
+Ns 6.062867
+d 1.000000
+Tr 0.000000
+map_Kd chrome12 - Default Texture.psd 
+
+newmtl red_carpai1
+Ka 0.000000 0.000000 0.000000
+Kd 0.882353 0.093431 0.093431
+Ks 0.200000 0.200000 0.200000
+Ns 6.062867
+d 1.000000
+Tr 0.000000
+map_Kd red_carpai1 - Default Texture.psd 
+
+newmtl old_leather
+Ka 0.000000 0.000000 0.000000
+Kd 0.678431 0.574487 0.351186
+Ks 0.000000 0.000000 0.000000
+Ns 512.000000
+d 1.000000
+Tr 0.000000
+map_Kd old_leather - Default Texture.psd 

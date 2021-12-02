@@ -1,0 +1,14 @@
+ia.setTmpCoefficients()
+if (ia.isInDanger(map, floor(_posX.getVariable()), floor(_posY.getVariable())))
+  {
+    ia.runAway(map, players, false)
+  }
+else
+  {
+    ia.breakWalls(map, findWay, players)
+    ia.findPlayers(map, findWay, players)
+    ia.stayAwayFromOthers(map, players)
+    ia.findBonus(map, findWay, players)
+    ia.calculWeight(sqrt(pow(map.getMaxX(), 2) +  pow(map.getMaxY(), 2)))
+    ia.findBestAction(map, players)
+  }

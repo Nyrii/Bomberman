@@ -1,0 +1,130 @@
+.finger {
+  cursor: pointer;
+}
+
+#playerIntro {
+  position: fixed;
+  background-color: white;
+  z-index: -1;
+  border-radius: 20px;
+  width: 90%;
+  height: 88vh;
+  top: 10%;
+  left: 5%;
+  display: block;
+  opacity: 0;
+}
+
+#playerIntro>video {
+  width: 96%;
+  margin: 5% 2%;
+}
+
+.playerOpened {
+  opacity: 1 !important;
+  z-index: 10 !important;
+}
+
+#playerIntro.playerOpened>#closeCross>.barre:first-child {
+  -webkit-transition-delay: 0.250s;
+  -moz-transition-delay: 0.250s;
+  -ms-transition-delay: 0.250s;
+  -o-transition-delay: 0.250s;
+  transition-delay: 0.250s;
+
+  -webkit-transform: translate(0, 0) rotate(45deg);
+  -moz-transform: translate(0, 0) rotate(45deg);
+  -ms-transform: translate(0, 0) rotate(45deg);
+  -o-transform: translate(0, 0) rotate(45deg);
+  transform: translate(0, 0) rotate(45deg);
+}
+
+#playerIntro.playerOpened>#closeCross>.barre:last-child {
+  -webkit-transition-delay: 0.250s;
+  -moz-transition-delay: 0.250s;
+  -ms-transition-delay: 0.250s;
+  -o-transition-delay: 0.250s;
+  transition-delay: 0.250s;
+
+  -webkit-transform: translate(0, 0) rotate(-45deg);
+  -moz-transform: translate(0, 0) rotate(-45deg);
+  -ms-transform: translate(0, 0) rotate(-45deg);
+  -o-transform: translate(0, 0) rotate(-45deg);
+  transform: translate(0, 0) rotate(-45deg);
+}
+
+#closeCross {
+  width: 50px;
+  height: 50px;
+  top: 0;
+  right: 0;
+  margin: 8px;
+  position: absolute;
+}
+
+.barre {
+  background-color: rgb(0, 0, 0);
+  border-color: rgba(231, 231, 231, 0);
+  width: 25px;
+  height: 2px;
+  margin: 26px 10px;
+  display: block;
+  z-index: 10;
+  left: 2px;
+  position: absolute;
+}
+
+.anim-250 {
+  -webkit-transition: all 750ms ease-in-out;
+  -moz-transition: all 750ms ease-in-out;
+  -ms-transition: all 750ms ease-in-out;
+  -o-transition: all 750ms ease-in-out;
+  transition: all 750ms ease-in-out;
+}
+
+.anim-500 {
+  -webkit-transition: all 750ms ease-in-out;
+  -moz-transition: all 750ms ease-in-out;
+  -ms-transition: all 750ms ease-in-out;
+  -o-transition: all 750ms ease-in-out;
+  transition: all 750ms ease-in-out;
+}
+
+.anim-750 {
+  -webkit-transition: all 750ms ease-in-out;
+  -moz-transition: all 750ms ease-in-out;
+  -ms-transition: all 750ms ease-in-out;
+  -o-transition: all 750ms ease-in-out;
+  transition: all 750ms ease-in-out;
+}
+
+.anim-1000 {
+  -webkit-transition: all 750ms ease-in-out;
+  -moz-transition: all 750ms ease-in-out;
+  -ms-transition: all 750ms ease-in-out;
+  -o-transition: all 750ms ease-in-out;
+  transition: all 750ms ease-in-out;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-center {
+    text-align: center;
+  }
+
+  #playerIntro {
+    top: 15%;
+    height: 78vh;
+  }
+
+  #playerIntro>video {
+    margin: 50px 2%;
+  }
+}

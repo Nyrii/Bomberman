@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<GUIScheme version="5" name="Close">
+    <Font filename="DejaVuSans-12.font" />
+    <Imageset filename="Close.imageset" />
+    <LookNFeel filename="Close.looknfeel" />
+    <WindowRendererSet filename="CEGUICoreWindowRendererSet" />
+
+    <FalagardMapping windowType="Close/Label" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Close/Label" />
+    <FalagardMapping windowType="Close/Button" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="Close/Button" />
+    <FalagardMapping windowType="Close/ImageButton" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="Close/ImageButton" />
+    <FalagardMapping windowType="Close/RadioButton" targetType="CEGUI/RadioButton" renderer="Core/ToggleButton" lookNFeel="Close/RadioButton" />
+    <FalagardMapping windowType="Close/Checkbox" targetType="CEGUI/ToggleButton" renderer="Core/ToggleButton" lookNFeel="Close/Checkbox" />
+    <FalagardMapping windowType="Close/Titlebar" targetType="CEGUI/Titlebar" renderer="Core/Titlebar" lookNFeel="Close/Titlebar" />
+    <FalagardMapping windowType="Close/FrameWindow" targetType="CEGUI/FrameWindow" renderer="Core/FrameWindow" lookNFeel="Close/FrameWindow" />
+    <FalagardMapping windowType="Close/Editbox" targetType="CEGUI/Editbox" renderer="Core/Editbox" lookNFeel="Close/Editbox" />
+    <FalagardMapping windowType="Close/VerticalScrollbarThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Close/VerticalScrollbarThumb" />
+    <FalagardMapping windowType="Close/VerticalScrollbar" targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="Close/VerticalScrollbar" />
+    <FalagardMapping windowType="Close/HorizontalScrollbarThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Close/HorizontalScrollbarThumb" />
+    <FalagardMapping windowType="Close/HorizontalScrollbar" targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="Close/HorizontalScrollbar" />
+    <FalagardMapping windowType="Close/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" renderer="Core/MultiLineEditbox" lookNFeel="Close/MultiLineEditbox" />
+    <FalagardMapping windowType="Close/ProgressBar" targetType="CEGUI/ProgressBar" renderer="Core/ProgressBar" lookNFeel="Close/ProgressBar" />
+    <FalagardMapping windowType="Close/HorizontalSliderThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Close/HorizontalSliderThumb" />
+    <FalagardMapping windowType="Close/HorizontalSlider" targetType="CEGUI/Slider" renderer="Core/Slider" lookNFeel="Close/HorizontalSlider" />
+    <FalagardMapping windowType="Close/VerticalSliderThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Close/VerticalSliderThumb" />
+    <FalagardMapping windowType="Close/VerticalSlider" targetType="CEGUI/Slider" renderer="Core/Slider" lookNFeel="Close/VerticalSlider" />
+    
+    <FalagardMapping windowType="Close/MenuItem" targetType="CEGUI/MenuItem" renderer="Core/MenuItem" lookNFeel="Close/MenuItem" />
+    <FalagardMapping windowType="Close/Menubar" targetType="CEGUI/Menubar" renderer="Core/Menubar" lookNFeel="Close/Menubar" />
+    <FalagardMapping windowType="Close/PopupMenu" targetType="CEGUI/PopupMenu" renderer="Core/PopupMenu" lookNFeel="Close/PopupMenu" />
+
+    <FalagardMapping windowType="Close/TabButton" targetType="CEGUI/TabButton" renderer="Core/TabButton" lookNFeel="Close/TabButton" />
+    <FalagardMapping windowType="Close/TabButtonPane" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Close/TabButtonPane" />
+    <FalagardMapping windowType="Close/TabContentPane" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Close/TabContentPane" />
+    <FalagardMapping windowType="Close/TabControl" targetType="CEGUI/TabControl" renderer="Core/TabControl" lookNFeel="Close/TabControl" />
+    
+    <FalagardMapping windowType="Close/ComboDropList" targetType="CEGUI/ComboDropList" renderer="Core/Listbox" lookNFeel="Close/ComboDropList" />
+    <FalagardMapping windowType="Close/ComboEditbox" targetType="CEGUI/Editbox"	 renderer="Core/Editbox" lookNFeel="Close/ComboEditbox" />
+    <FalagardMapping windowType="Close/Combobox" targetType="CEGUI/Combobox"	 renderer="Core/Default" lookNFeel="Close/Combobox" />
+
+    <FalagardMapping windowType="Close/ListboxItem" targetType="CEGUI/ItemEntry" renderer="Core/ItemEntry" lookNFeel="Close/ListboxItem" />
+    <FalagardMapping windowType="Close/ItemListbox" targetType="CEGUI/ItemListbox" renderer="Core/ItemListbox" lookNFeel="Close/ItemListbox" />
+    <FalagardMapping windowType="Close/Listbox" targetType="CEGUI/Listbox" renderer="Core/Listbox" lookNFeel="Close/Listbox" />
+    
+    <FalagardMapping windowType="Close/ListHeaderSegment" targetType="CEGUI/ListHeaderSegment" renderer="Core/ListHeaderSegment" lookNFeel="Close/ListHeaderSegment" />
+    <FalagardMapping windowType="Close/ListHeader" targetType="CEGUI/ListHeader" renderer="Core/ListHeader" lookNFeel="Close/ListHeader" />
+    <FalagardMapping windowType="Close/MultiColumnList" targetType="CEGUI/MultiColumnList" renderer="Core/MultiColumnList" lookNFeel="Close/MultiColumnList" />
+    
+    <FalagardMapping windowType="Close/ScrollablePane" targetType="CEGUI/ScrollablePane" renderer="Core/ScrollablePane" lookNFeel="Close/ScrollablePane" />
+    
+    <FalagardMapping windowType="Close/Spinner" targetType="CEGUI/Spinner" renderer="Core/Default" lookNFeel="Close/Spinner" />
+    <FalagardMapping windowType="Close/Tooltip" targetType="CEGUI/Tooltip" renderer="Core/Tooltip" lookNFeel="Close/Tooltip" />
+    <FalagardMapping windowType="Close/StaticImage" targetType="DefaultWindow" renderer="Core/StaticImage" lookNFeel="Close/StaticImage" />
+    <FalagardMapping windowType="Close/StaticText" targetType="DefaultWindow" renderer="Core/StaticText" lookNFeel="Close/StaticText" />
+    <FalagardMapping windowType="Close/GroupBox" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Close/GroupBox" />
+    <FalagardMapping windowType="Close/Tree" targetType="CEGUI/Tree" renderer="Core/Tree" lookNFeel="Close/Tree" />
+    
+</GUIScheme>
+

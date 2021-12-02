@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<GUIScheme version="5" name="Editbox">
+	<Imageset filename="Editbox.imageset" />
+	<Font filename="DejaVuSans-12.font" />
+	<LookNFeel filename="Editbox.looknfeel" />
+	<WindowRendererSet filename="CEGUICoreWindowRendererSet" />
+
+	<FalagardMapping windowType="Editbox/Label"       targetType="DefaultWindow"     renderer="Core/Default"      lookNFeel="Editbox/Label" />
+	<FalagardMapping windowType="Editbox/Button"      targetType="CEGUI/PushButton"  renderer="Core/Button"       lookNFeel="Editbox/Button" />
+	<FalagardMapping windowType="Editbox/Checkbox"    targetType="CEGUI/ToggleButton"    renderer="Core/ToggleButton" lookNFeel="Editbox/Checkbox" />
+	<FalagardMapping windowType="Editbox/ImageButton" targetType="CEGUI/PushButton"  renderer="Core/Button"       lookNFeel="Editbox/ImageButton" />
+	<FalagardMapping windowType="Editbox/RadioButton" targetType="CEGUI/RadioButton" renderer="Core/ToggleButton" lookNFeel="Editbox/RadioButton" />
+	<FalagardMapping windowType="Editbox/FrameWindow"  targetType="CEGUI/FrameWindow" renderer="Core/FrameWindow"  lookNFeel="Editbox/FrameWindow" />
+	<FalagardMapping windowType="Editbox/Titlebar"     targetType="CEGUI/Titlebar"    renderer="Core/Titlebar"     lookNFeel="Editbox/Titlebar" />
+	<FalagardMapping windowType="Editbox/Editbox"          targetType="CEGUI/Editbox"          renderer="Core/Editbox"          lookNFeel="Editbox/Editbox" />
+	<FalagardMapping windowType="Editbox/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" renderer="Core/MultiLineEditbox" lookNFeel="Editbox/MultiLineEditbox" />
+	<FalagardMapping windowType="Editbox/Menubar"   targetType="CEGUI/Menubar"   renderer="Core/Menubar"   lookNFeel="Editbox/Menubar" />
+	<FalagardMapping windowType="Editbox/PopupMenu" targetType="CEGUI/PopupMenu" renderer="Core/PopupMenu" lookNFeel="Editbox/PopupMenu" />
+	<FalagardMapping windowType="Editbox/MenuItem"  targetType="CEGUI/MenuItem"  renderer="Core/MenuItem"  lookNFeel="Editbox/MenuItem" />
+	<FalagardMapping windowType="Editbox/AlternateProgressBar" targetType="CEGUI/ProgressBar" renderer="Core/ProgressBar" lookNFeel="Editbox/AltProgressBar" />
+	<FalagardMapping windowType="Editbox/ProgressBar"          targetType="CEGUI/ProgressBar" renderer="Core/ProgressBar" lookNFeel="Editbox/ProgressBar" />
+	<FalagardMapping windowType="Editbox/VUMeter"              targetType="CEGUI/ProgressBar" renderer="Core/ProgressBar" lookNFeel="Editbox/VUMeter" />
+	<FalagardMapping windowType="Editbox/VerticalScrollbar"   targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="Editbox/VerticalScrollbar" />
+	<FalagardMapping windowType="Editbox/HorizontalScrollbar" targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="Editbox/HorizontalScrollbar" />
+	<FalagardMapping windowType="Editbox/VerticalScrollbarThumb"   targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Editbox/VerticalScrollbarThumb" />
+	<FalagardMapping windowType="Editbox/HorizontalScrollbarThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="Editbox/HorizontalScrollbarThumb" />
+	<FalagardMapping windowType="Editbox/LargeVerticalScrollbar"      targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="Editbox/LargeVerticalScrollbar" />
+	<FalagardMapping windowType="Editbox/LargeVerticalScrollbarThumb" targetType="CEGUI/Thumb"     renderer="Core/Button"    lookNFeel="Editbox/LargeVerticalScrollbarThumb" />
+	<FalagardMapping windowType="Editbox/TabButton"  targetType="CEGUI/TabButton"  renderer="Core/TabButton"  lookNFeel="Editbox/TabButton" />
+	<FalagardMapping windowType="Editbox/TabControl" targetType="CEGUI/TabControl" renderer="Core/TabControl" lookNFeel="Editbox/TabControl" />
+	<FalagardMapping windowType="Editbox/TabContentPane"    targetType="DefaultWindow"    renderer="Core/Default"    lookNFeel="Editbox/TabContentPane" />
+	<FalagardMapping windowType="Editbox/TabButtonPane"    targetType="DefaultWindow"    renderer="Core/Default"    lookNFeel="Editbox/TabButtonPane" />
+	<FalagardMapping windowType="Editbox/ComboDropList" targetType="CEGUI/ComboDropList" renderer="Core/Listbox" lookNFeel="Editbox/ComboDropList" />
+	<FalagardMapping windowType="Editbox/ComboEditbox"  targetType="CEGUI/Editbox"	 renderer="Core/Editbox" lookNFeel="Editbox/ComboEditbox" />
+	<FalagardMapping windowType="Editbox/Combobox" targetType="CEGUI/Combobox"	 renderer="Core/Default" lookNFeel="Editbox/Combobox" />
+	<FalagardMapping windowType="Editbox/Listbox"           targetType="CEGUI/Listbox"           renderer="Core/Listbox"           lookNFeel="Editbox/Listbox" />
+	<FalagardMapping windowType="Editbox/ListHeader"        targetType="CEGUI/ListHeader"        renderer="Core/ListHeader"        lookNFeel="Editbox/ListHeader" />
+	<FalagardMapping windowType="Editbox/ListHeaderSegment" targetType="CEGUI/ListHeaderSegment" renderer="Core/ListHeaderSegment" lookNFeel="Editbox/ListHeaderSegment" />
+	<FalagardMapping windowType="Editbox/MultiColumnList"   targetType="CEGUI/MultiColumnList"   renderer="Core/MultiColumnList"   lookNFeel="Editbox/MultiColumnList" />
+	<FalagardMapping windowType="Editbox/Slider"      targetType="CEGUI/Slider"      renderer="Core/Slider"  lookNFeel="Editbox/Slider" />
+	<FalagardMapping windowType="Editbox/SliderThumb" targetType="CEGUI/Thumb" renderer="Core/Button"  lookNFeel="Editbox/SliderThumb" />
+	<FalagardMapping windowType="Editbox/ScrollablePane" targetType="CEGUI/ScrollablePane" renderer="Core/ScrollablePane" lookNFeel="Editbox/ScrollablePane" />
+	<FalagardMapping windowType="Editbox/Spinner" targetType="CEGUI/Spinner" renderer="Core/Default" lookNFeel="Editbox/Spinner" />
+	<FalagardMapping windowType="Editbox/Tooltip" targetType="CEGUI/Tooltip" renderer="Core/Tooltip" lookNFeel="Editbox/Tooltip" />
+	<FalagardMapping windowType="Editbox/StaticImage" targetType="DefaultWindow" renderer="Core/StaticImage" lookNFeel="Editbox/StaticImage" />
+	<FalagardMapping windowType="Editbox/StaticText"  targetType="DefaultWindow" renderer="Core/StaticText"  lookNFeel="Editbox/StaticText" />
+	<FalagardMapping windowType="Editbox/ItemListbox" targetType="CEGUI/ItemListbox" renderer="Core/ItemListbox" lookNFeel="Editbox/ItemListbox" />
+	<FalagardMapping windowType="Editbox/ListboxItem" targetType="CEGUI/ItemEntry"   renderer="Core/ItemEntry"   lookNFeel="Editbox/ListboxItem" />
+	<FalagardMapping windowType="Editbox/GroupBox" targetType="DefaultWindow"   renderer="Core/Default"   lookNFeel="Editbox/GroupBox" />
+      <FalagardMapping windowType="Editbox/Tree" targetType="CEGUI/Tree"   renderer="Core/Tree"   lookNFeel="Editbox/Tree" />
+</GUIScheme>
+

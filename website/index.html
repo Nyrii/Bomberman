@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="L'Indie Ganme Studio est un projet EPITECH consistant a recoder un jeu vidéo. Nous avons choisi le Bomberman.">
+    <meta name="author" content="Aurelien Arino">
+    <link rel="shortcut icon" href="http://aurelien-arino.xyz/assets/img/icons/dev.ico">
+    <title>Indie</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
+    <!-- Fonts from Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- sneaky player -->
+    <div id="playerIntro" class="anim-750">
+      <div id="closeCross" class="finger">
+        <span class="barre anim-250"></span>
+        <span class="barre anim-250"></span>
+      </div>
+      <video width="1280" height="720" controls poster="assets/img/IndiePrez.jpg">
+        <source src="assets/video/Indie.mp4" type="video/mp4">
+        <source src="assets/video/Indie.ogv" type="video/ogg">
+        <source src="assets/video/Indie.webm" type="video/webm">
+        Your browser does not support the video tag or the file format of this video.
+      </video>
+    </div>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand js-scrollTop finger"><b>INDIE</b></a>
+        </div>
+      </div>
+    </div>
+
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 mobile-center">
+					<h1>Bomberman</h1>
+					<button id="playerButton" class="btn btn-warning btn-lg">Watch video !</button>
+					<a href="#Downloads" class="js-scrollTo"><button class="btn btn-warning btn-lg">Download</button></a>
+				</div><!-- /col-lg-6 -->
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+
+	<div id="Downloads" class="container">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h1>Download</h1>
+				<h3>Grab a copy of our game on the operation system you want.</h3>
+			</div>
+		</div><!-- /row -->
+		<div class="row mt centered">
+			<div class="col-lg-6">
+				<img src="assets/img/distrib/windows.svg" width="150" alt="">
+				<h4>Windows</h4>
+				<button class="btn btn-warning btn-lg">Windows 64bit - 7/8/10</button>
+			</div><!--/col-lg-4 -->
+			<div class="col-lg-6 mt-30">
+				<img src="assets/img/distrib/ubuntu.svg" width="150" alt="">
+				<h4>Linux</h4>
+				<button class="btn btn-warning btn-lg">Linux 64bit - Kernel 3.x</button>
+			</div><!--/col-lg-4 -->
+		</div><!-- /row -->
+	</div><!-- /container -->
+	<hr>
+	</div><!-- /container -->
+
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h1>Galery</h1>
+				<h3>Let's have a look to our nice game !</h3>
+			</div>
+		</div><!-- /row -->
+    <!-- CAROUSEL -->
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+				    <div class="item active">
+				      <img src="assets/img/Indie-mockup-top.png" alt="">
+				    </div>
+				    <div class="item">
+				      <img src="assets/img/Indie-mockup-fps.png" alt="">
+				    </div>
+				    <div class="item">
+				      <img src="assets/img/p03.png" alt="">
+				    </div>
+				  </div>
+				</div>
+			</div><!-- /col-lg-8 -->
+		</div><!-- /row -->
+	</div><!--/container -->
+	<hr>
+	</div><!-- /container -->
+
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h1>Our Awesome Team</h1>
+				<h3>Meet the team that created the game you'll love over the original.</h3>
+			</div>
+		</div><!-- /row -->
+		<div class="row mt centered">
+			<div class="col-lg-4">
+				<img class="img-circle" src="assets/img/profile/00noboud_n.jpg" width="140" alt="">
+				<h4>Nyrandone Noboud-Inpeng</h4>
+				<p>3D Animation - Artificial Inteligence - Core Game</p>
+			</div><!--/col-lg-4 -->
+			<div class="col-lg-4">
+				<img class="img-circle" src="assets/img/profile/00milcen_a.jpg" width="140" alt="">
+				<h4>Adrien Milcent</h4>
+				<p>Artificial Intelligence - Core Game</p>
+			</div><!--/col-lg-4 -->
+			<div class="col-lg-4">
+				<img class="img-circle" src="assets/img/profile/00combau_a.jpg" width="140" alt="">
+				<h4>Alban Combaud</h4>
+				<p>Menus</p>
+			</div><!--/col-lg-4 -->
+			<div class="col-lg-6">
+				<img class="img-circle" src="assets/img/profile/00wilmot_g.jpg" width="140" alt="">
+				<h4>Guillaume Wilmot</h4>
+				<p>Graphical Game</p>
+			</div><!--/col-lg-6 -->
+			<div class="col-lg-6">
+				<img class="img-circle" src="assets/img/profile/00arino_a.jpg" width="140" alt="">
+				<h4>Aurélien Arino</h4>
+				<p>Designer - Website</p>
+			</div><!--/col-lg-6 -->
+		</div><!-- /row -->
+	</div><!-- /container -->
+	<hr>
+	<p class="centered">Created by <a href="http://aurelien-arino.xyz">Aurélien ARINO</a></p>
+	</div><!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.scrollTo-1.4.2-min.js"></script>
+    <script async type="text/javascript" src="assets/js/handlers.min.js"></script>
+  </body>
+</html>
